@@ -1,0 +1,12 @@
+{
+  "name": "call_of_cthulhu_sheet",
+  "displayName": "call_of_cthulhu_sheet",
+  "expo": {
+    "name": "call_of_cthulhu_sheet",
+    "slug": "call_of_cthulhu_sheet",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

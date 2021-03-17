@@ -1,0 +1,199 @@
+{
+    "ocupacao": "instrutor de esgrima",
+    "residencia": "Estados Unidos",
+    "nacionalidade": "Canadense",
+    "atributos": {
+      "aparencia": 30,
+      "destreza": 30,
+      "constituicao": 30,
+      "educacao": 40,
+      "forca": 30,
+      "inteligencia": 40,
+      "poder": 30,
+      "tamanho": 40
+    },
+    "saude": 13,
+  "saudeMax": 18,
+    "sanidade": 30,
+    "sorte": 40,
+    "pontosDeMagia": 7,
+    "morrendo": false,
+    "inconsciente": false,
+    "lesaoGrave": false,
+    "insanidadeIndefinida": false,
+    "insanidadeTemporaria": false,
+    "movimento": 7,
+    "periciasOcupacionais": {
+      "antropologia": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "armasDeFogoPistolas": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "armasDeFogoRifles": {
+        "novoNivel": false,
+        "valor": 25
+      },
+      "arqueologia": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "arremessar": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "avaliacao": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "cavalgar": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "charme": {
+        "novoNivel": false,
+        "valor": 15
+      },
+      "chaveiro": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "consertosEletricos": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "consertosMecanicos": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "contabilidade": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "direito": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "dirigirAuto": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "disfarce": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "encontrar": {
+        "novoNivel": false,
+        "valor": 25
+      },
+      "escutar": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "escalar": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "esquivar": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "labia": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "intimidacao": {
+        "novoNivel": false,
+        "valor": 15
+      },
+      "historia": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "furtividade": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "linguaNativa": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "medicina": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "cthulhuMythos": {
+        "novoNivel": false,
+        "valor": 0
+      },
+      "mundoNatural": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "natacao": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "navegacao": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "nivelDeCredito": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "ocultismo": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "operarMaquinario": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "persuasao": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "prestidigitacao": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "primeirosSocorros": {
+        "novoNivel": false,
+        "valor": 30
+      },
+      "psicanalise": {
+        "novoNivel": false,
+        "valor": 1
+      },
+      "psicologia": {
+        "novoNivel": false,
+        "valor": 5
+      },
+      "saltar": {
+        "novoNivel": false,
+        "valor": 20
+      },
+      "rastrear": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "sobrevivencia": {
+        "novoNivel": false,
+        "valor": 10
+      },
+      "arteOficio": [],
+      "ciencia": [],
+      "linguaOutra": [],
+      "lutar": [],
+      "pilotar": [],
+      "usarBiblioteca": []
+    },
+    "backstory": "",
+    "armas": [],
+    "_id": "6043bdc1b20b2841471a0eca",
+    "nome": "Merrik d'Milliard",
+    "jogador": "V"
+  }
