@@ -1,26 +1,14 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
+import {View} from "react-native";
 
-import Styles, {ContainerStyle} from './grid.style';
+import Styles from "./grid.style";
 
-let STYLE = Styles.Container;
+function Container(props) {
+  let style = {...Styles.Container};
 
-/**
- * Container basico
- * @param props
- * @param style.props
- * @returns {JSX.Element}
- * @constructor
- */
-export default function Container(props) {
-  console.log('Style:',Styles)
-  console.log(ContainerStyle.width)
+  style = {...style, ...props.style};
 
-  STYLE = {...STYLE, ...props.style}
+  return <View style={style}>{props.children}</View>;
+}
 
-  return (
-    <View style={STYLE} id={props.id}>
-      {props.children}
-    </View>
-  )
-};
+export default Container;

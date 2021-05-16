@@ -1,12 +1,28 @@
-import React from 'react';
-import { View } from 'react-native';
+import React from "react";
+import {View} from "react-native";
 
-import Styles from './grid.style';
+import Styles from "./grid.style";
 
-const STYLE = Styles.Row;
+function Row(props) {
+  let style = {...Styles.Row};
 
-export default function Row(props){
-  return (<View style={STYLE}>
-    {props.children}
-  </View>)
-};
+  if (props.justify) style = setJustifyContent(style, props.justify);
+
+  style = {...style, ...props.style};
+
+  const childrenComProps = props.rowCols
+    ? React.Children.map(props.children, (child) =>
+        React.cloneElement(child, {rowCols: props.rowCols})
+      )
+    : props.children;
+
+  return <View style={style}>{childrenComProps}</View>;
+}
+
+function setJustifyContent(style, justify) {
+  style.justifyContent = justify;
+
+  return style;
+}
+
+export default Row;
