@@ -16,17 +16,20 @@ const styles = {
     display: "flex",
     flexDirection: "row",
     flexWrap: "wrap",
-    marginTop: 0,
+    marginTop: 16, // TODO mudar para 0
     marginRight: (1.5 * REM) / -2,
     marginLeft: (1.5 * REM) / -2,
-    backgroundColor: "#aaa",
+    backgroundColor: "#ededed",
+    border: "1px solid #0000ed", //TODO remover isso aqui depois
+
   },
   Col: {
     flexDirection: "column",
     flexGrow: 1,
     flexShrink: 0,
     flexBasis: "0%",
-    border: "1px solid black", //TODO remover isso aqui depois
+    backgroundColor: "#d5d5d5", //TODO remover isso aqui depois
+    border: "1px solid #ed0000", //TODO remover isso aqui depois
   },
 };
 

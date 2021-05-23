@@ -9,6 +9,7 @@ function Col(props) {
   let style = {...Styles.Col};
 
   if (props.rowCols) style = setRowCols(style, props.rowCols);
+  if (props.align) style = setAlignItems(style, props.align)
 
   if (props.size) style = setWidthGrid(style, props.size);
 
@@ -47,6 +48,14 @@ function setRowCols(style, rowCols) {
   }
 
   return style;
+}
+
+function setAlignItems(style, align) {
+  style.alignSelf = `flex-${align}`;
+
+  if (align === "center") style.alignSelf = "center";
+
+  return style
 }
 
 export default Col;
